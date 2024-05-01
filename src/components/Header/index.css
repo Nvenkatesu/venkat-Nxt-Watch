@@ -1,0 +1,21 @@
+.hamburg {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.logOut {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburg {
+    display: none;
+  }
+  .logOut {
+    display: none;
+  }
+}
